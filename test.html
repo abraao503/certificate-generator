@@ -1,6 +1,76 @@
 <html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+  </head>
   <body>
-    <p>Name: {{name}}</p>
-    <p>Age: {{age}}</p>
+    <div class="container">
+      <div class="header">
+        <p class="title1">Certificate <br> of</p>
+        <p class="title2">Training Completion</p>
+      </div>
+      <p class="text">This certifies that</p>
+      <p class="text-bold">{{name}}</p>
+      <p class="text">Has successfully completed the training in</p>
+      <p class="text-bold">{{course}}</p>
+      <p class="text">On {{date}}</p>
+    </div>
   </body>
+
+  <style>
+    body {
+      height: 100vh;
+      margin: 0;
+      display: flex;
+    }
+
+    .container {
+      flex: 1;
+      background-color:#444;
+      border: 20px solid rgb(70,163,106);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+    }
+
+    .title1 {
+      font-family: 'Courgette', cursive;
+      color: white;
+      font-size: 45px;
+      text-align: center;
+      margin: 0;
+    }
+
+    .title2 {
+      font-family: 'Titillium Web', sans-serif;
+      color: white;
+      font-size: 42px;
+      text-align: center;
+      margin: 0;
+    }
+
+    .text {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 25px;
+      margin: 0;
+    }
+
+    .text-bold {
+      font-family: 'Roboto Mono', monospace;
+      font-weight: bold;
+      margin: 16px 0;
+      font-size: 28px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 15px;
+      margin-bottom: 35px;
+    }
+  </style>
 </html>
