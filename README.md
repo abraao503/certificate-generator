@@ -16,15 +16,16 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
-- [Puppetter](https://github.com/puppeteer/puppeteer)
+- [Puppetter](https://github.com/puppeteer/puppeteer/)
 - [Express](https://expressjs.com/)
 - [Handlebars](https://handlebarsjs.com/)
+- [Axios](https://github.com/axios/axios/)
 
 ## :computer: Sobre o projeto
 
 O projeto se trata de um serviço web para geração de certificados de cursos. O serviço recebe um template HTML e dados referente a um aluno do curso, então, um certificado, em formato PDF, é devolvido. 
 
-Também disponível no Heroku através desse endereço [https://certificate-generator-ts.herokuapp.com/certificado](https://certificate-generator-ts.herokuapp.com/certificado). (A requição pode demorar um pouco se o servidor estive inativo).
+Também disponível no Heroku através desse endereço [https://certificate-generator-ts.herokuapp.com/certificado](https://certificate-generator-ts.herokuapp.com/certificado). (A requisição pode demorar um pouco se o servidor estive inativo).
 
 ## :information_source: Como rodar a aplicação
 
