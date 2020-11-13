@@ -1,24 +1,4 @@
 <html>
-  <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <p class="title1">Certificate <br> of</p>
-        <p class="title2">Training Completion</p>
-      </div>
-      <p class="text">This certifies that</p>
-      <p class="text-bold">{{name}}</p>
-      <p class="text">Has successfully completed the training in</p>
-      <p class="text-bold">{{course}}</p>
-      <p class="text">On {{date}}</p>
-    </div>
-  </body>
-
   <style>    
     body {
       height: 100vh;
@@ -28,12 +8,12 @@
 
     .container {
       flex: 1;
-      background-color:#444;
+      background-color: rgb(51, 51, 51);
       border: 20px solid rgb(70,163,106);
       display: flex;
       flex-direction: column;
       align-items: center;
-      color:red;
+      color:white;
     }
 
     .title1 {
@@ -73,4 +53,23 @@
       margin-bottom: 35px;
     }
   </style>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p class="title1">Certificate <br> of</p>
+        <p class="title2">Training Completion</p>
+      </div>
+      <p class="text">This certifies that</p>
+      <p class="text-bold">{{name}}</p>
+      <p class="text">Has successfully completed the training in</p>
+      <p class="text-bold">{{course}}</p>
+      <p class="text">On {{date}}</p>
+    </div>
+  </body>
 </html>
