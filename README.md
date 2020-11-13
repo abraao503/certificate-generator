@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto se trata de um serviço web para geração de certificados de cursos. O serviço recebe um template HTML e dados referente a um aluno do curso, então, um certificado, em formato PDF, é devolvido. 
 
-Também disponível no Heroku através desse endereço [https://certificate-generator-ts.herokuapp.com/certificado](https://certificate-generator-ts.herokuapp.com/certificado). (A requisição pode demorar um pouco se o servidor estive inativo).
+Também disponível no Heroku através desse endereço [https://certificate-generator-ts.herokuapp.com/certificado](https://certificate-generator-ts.herokuapp.com/certificado). (A requisição pode demorar um pouco se o servidor estiver inativo).
 
 ## :information_source: Como rodar a aplicação
 
