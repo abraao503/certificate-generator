@@ -30,7 +30,10 @@ async function getPdf(page: puppeteer.Page, html: string){
 		waitUntil: 'networkidle0'
 	});
 
-  const pdf = await page.pdf();
+  const pdf = await page.pdf({
+    landscape: true, 
+    printBackground: true,
+  });
   
   return pdf;
 }
