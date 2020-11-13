@@ -4,7 +4,7 @@ import createPdfValidation from './validation';
 
 const routes = Router();
 
-routes.get('/certificado', createPdfValidation, async (request, response) => {
+routes.post('/certificado', createPdfValidation, async (request, response) => {
   try {
     const { template, data } = request.body;
     const pdf = await createPdf({
